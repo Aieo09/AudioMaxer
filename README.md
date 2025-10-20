@@ -1,7 +1,7 @@
-# OptForAudio
+# AudioMaxed
 Utility to temporarily change Windows system settings for improved performance during real time audio generation.
 
-I wrote this to do repetitive system housekeeping necessary to run [IK Multimedia Amplitube](https://www.ikmultimedia.com/products/amplitube5/) on an old Dell laptop with significantly reduced audio dropouts and buffer underruns (at an ASIO buffer size of 64 samples).
+I wrote this to do repetitive system housekeeping necessary to run IK Multimedia Amplitube on an Dell laptop with significantly reduced audio dropouts and buffer underruns (at an ASIO buffer size of 64 samples). Developed On OptForAdudio.
 
 It's a command line/console program that:
 - Runs elevated
@@ -25,8 +25,5 @@ Optional command-line params:
 - `-xAcpi` 			prevent change to Microsoft ACPI-Compliant Control Method Battery
 - `-runUtils`		starts [LatencyMon](https://www.resplendence.com/latencymon) (if found at C:\Program Files\LatencyMon\LatMon.exe) and [Rightmark PPM Panel](https://sourceforge.net/projects/rightmark/) (if found at C:\Program Files\RightMark\ppmpanel\ppmpanel.exe)
 
-Additional reference:
-- https://www.sweetwater.com/sweetcare/articles/causes-of-dpc-latency-and-how-to-fix-them/
-- https://support.presonus.com/hc/en-us/articles/360025279231-Optimizing-Your-Computer-for-Audio-Windows-10
-- https://www.bluecataudio.com/Blog/tip-of-the-day/how-to-optimize-a-windows-laptop-for-low-latency-real-time-audio/
-- https://www.cantabilesoftware.com/glitchfree/
+
+Developed On OptForAdudio.

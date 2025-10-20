@@ -1,9 +1,9 @@
 /*
- * OptForAudio
+ * AudioMaxed
  * License: UNLICENSE
  *
- * I (Sean Echevarria) wrote this to do repetitive system housekeeping necessary 
- * to run Amplitube on an old Dell laptop with significantly reduced audio 
+ * I wrote this to do repetitive system housekeeping necessary 
+ * to run Amplitube on a Dell laptop with significantly reduced audio 
  * dropouts and buffer underruns.
  * 
  * It:
@@ -16,10 +16,7 @@
  *   Launches a list of programs (not elevated by default)
  *   Waits for all of the programs to exit
  *   Restores all changes it made
- * 
- * Let me know if you modify, extend or use this.
- * My website: http://www.creepingfog.com/sean/
- * Contact Sean: "fester" at the domain of my website
+ *   Contact me on Instagram: Onewith1_
  */
 
 
@@ -319,7 +316,7 @@ LaunchProgram(std::wstring inStr, bool launchUsingShellToken /*= true*/)
 void
 ReportStatus(std::wstring msg)
 {
-	msg = L"[OptForAudio] " + msg + L"\n";
+	msg = L"[AudioMaxed] " + msg + L"\n";
 	::wprintf(msg.c_str());
 	::OutputDebugStringW(msg.c_str());
 }
