@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="OptForAudio.cpp">
+    <ClCompile Include=".AudioMaxedcpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -25,7 +25,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="OptForAudio.rc">
+    <ResourceCompile Include="AudioMaxed.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
   </ItemGroup>
